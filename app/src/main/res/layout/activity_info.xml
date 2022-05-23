@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:padding="10dp">
+    <TextView
+        style="@style/title_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="탑골공원 소개"
+        android:textStyle="bold"
+        android:id="@+id/title_info"
+        android:gravity="center_horizontal"/>
+    <ImageView
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="440dp"
+        android:id="@+id/img_info"
+        android:scaleType="fitXY"
+        android:layout_below="@id/title_info"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/info1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_info"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="탑골공원 가기전 반드시 읽어야할 문구"
+        android:layout_below="@id/img_info"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_info_back"
+        android:text="뒤로"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt_info"
+        android:backgroundTint="#B5B5B5"/>
+
+</RelativeLayout>
