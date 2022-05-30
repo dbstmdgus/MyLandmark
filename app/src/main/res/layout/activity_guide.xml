@@ -32,7 +32,9 @@
     </TableRow>
 
     <TableRow>
-        <ImageView android:src="@drawable/sub01_ico01"/>
+        <ImageView
+            android:id="@+id/img_map"
+            android:src="@drawable/sub01_ico01"/>
         <TextView android:text="[주소] 서울시 은평구 진관동"/>
     </TableRow>
 
